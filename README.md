@@ -2,26 +2,26 @@
  ## github介绍
 https://github.com/sharpstill/CronHub
 
- ## 使用教程参考
+## 使用教程参考
 http://www.mamicode.com/info-detail-1755577.html
 
- ## 下载cronhub源代码
+## 下载cronhub源代码
   * 下载源码
    https://github.com/sharpstill/CronHub 下载master分支的源代码
 
-##导入到开发工具中
+## 导入到开发工具中
 
-##下载tomcat8.0
+## 下载tomcat8.0
 下载地址:http://tomcat.apache.org/
 
-##给项目配置JDK与添加tomcat1.8的JAR
+## 给项目配置JDK与添加tomcat1.8的JAR
  * 把项目中的JDK替换成JDK1.8的即可
  * 如下所示添加tomcat1.8的JAR的包
 在CronHub-master/WebRoot/WEB-INF下创建tomcat1.8文件夹，并把第5步下载的tomcat1.8的lib下的所有的JAR
 复制到刚才创建的目录下并添加到环境变量中即可
 
 
- ## 安装mysql5.6数据库
+## 安装mysql5.6数据库
   * 在线安装mysql5.6数据库
    
    service mysqld stop
@@ -92,7 +92,7 @@ http://www.mamicode.com/info-detail-1755577.html
     mysql> source  /home/xiaoxu/cronhub_manage_system.sql
 
 
- ##修改配置
+## 修改配置
  
   * 修改application.properties
    * 主要修改CronHub-master/config/application.properties 中的数据库链接信息
@@ -107,7 +107,7 @@ http://www.mamicode.com/info-detail-1755577.html
    * 在128行处修改成 ... -home  ${base_java_home}  -Xmx2000m -pidfile ...
 
 
-##对项目进行打包
+## 对项目进行打包
  * 对CronHub-master 打包
  * 找到CronHub-master/ant/build.xml在build.xml上右击, 找到 run as >> Ant build  ，出现以下信息表示以成功打包
    
